@@ -9,9 +9,10 @@ function happyHolidaysTo(name) {
 }
 say happyHolidaysTo('you')
 
-function happyHolidayTo ('Independence Day', 'you') {
+function happyHolidayTo (holiday, name) {
   return "Happy ${holiday}, ${name}!"
 }
+say happyHolidayTo('Independence Day', 'you')
 
 function holidayCountdown ("Mother's Day", '20') {
   return "It\'s ${days} days until ${holiday}!"
